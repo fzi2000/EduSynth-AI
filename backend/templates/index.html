@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduSynth AI - Study Notes Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="EduSynth AI Logo" class="logo">
+
+    <!-- <nav class="navbar">
+        <h2>EduSynth AI</h2>
+    </nav> -->
+
+    <div class="container">
+        <h1 class="glow">AI Study Notes Generator</h1>
+        <p class="subtitle">Paste your notes and generate summaries, quizzes, and flashcards in seconds.</p>
+
+        {% if message %}
+        <p class="message">{{ message }}</p>
+        {% endif %}
+
+        <form action="/generate" method="post">
+            <textarea name="text" placeholder="Paste your study content here..." required></textarea>
+            <button type="submit">Generate Study Material</button>
+        </form>
+    </div>
+
+
+    <footer>
+        Built with ❤️ using AI/ML API • EduSynth AI
+    </footer>
+
+</body>
+</html>

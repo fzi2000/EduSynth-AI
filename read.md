@@ -23,5 +23,5 @@ Perfect for students who want fast, organized revision material.
 - **AI Engine:** OpenAI API  
 - **Deployment:** Render
 
-< img src="cover page.png" width="128"/>
+<img width="1536" height="1024" alt="cover page" src="https://github.com/user-attachments/assets/a6fe8d06-4e32-4518-9ce0-597bfe4cc2e5" />
 
